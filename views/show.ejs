@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+        a{
+            text-decoration: none;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Details of @<%= post.name %></h1>
+        <h5>Student ID:<%= post.id %></h5>
+        <h5>Dept Name:<%= post.content %></h5>
+    </div>
+    <div class="container">
+        <a href="http://localhost:8080/posts">Return Back</a>
+    </div>
+</body>
+</html>
